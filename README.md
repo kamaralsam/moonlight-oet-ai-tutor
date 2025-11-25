@@ -24,20 +24,23 @@ Error-tolerant design (gracefully handles rate limits / offline mode)
 As a result, the system acts like a tiny AI tutor:
 it retrieves similar OET examples from your dataset and explains why certain answers are correct, partial, or incorrect — in a simple, encouraging tone.
 
-**⭐ Why I Built This**
+**⭐ Why This Project Matters**
 
-I’m building “Moonlight OET,” a set of study tools for healthcare professionals preparing for the OET exam.
-This project is the first step toward a full AI-powered OET assistant that:
+I’m building Moonlight OET, a set of modern study tools designed to support healthcare professionals preparing for the OET exam.
+This AI tutor is the first step toward creating a full, intelligent OET assistant that can:
 
-understands student questions
+understand student questions in a natural, helpful way
 
-retrieves the most relevant examples
+retrieve the most relevant past examples for guidance
 
-explains common mistakes
+highlight common mistakes and explain why they happen
 
-provides actionable exam tips
+give clear, practical tips students can immediately apply
 
-This notebook is a baseline prototype that I will expand later into a full RAG (Retrieval-Augmented Generation) system.
+This prototype shows how retrieval + LLMs can work together to give personalized feedback.
+In the future, I plan to expand it into a full RAG (Retrieval-Augmented Generation) system with richer datasets, embeddings, and student progress tracking.
+
+
 
 **🧠 How It Works (Simple Overview)**
 **1️⃣ Load a small dataset**
