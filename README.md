@@ -77,6 +77,14 @@ OET-focused
 
 If the API hits a rate limit or disconnects, the tutor responds gently instead of crashing.
 
+## 🛠️ Tech Stack
+- Python 3.12
+- Jupyter Notebooks
+- scikit-learn (TF-IDF, cosine similarity)
+- Pandas
+- OpenAI API (GPT-4.1-mini)
+
+
 **📁 Project Structure**
 moonlight_oet_ai_tutor/
 │
